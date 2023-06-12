@@ -16,14 +16,8 @@ $ git clone https://github.com/lcamiloch/Mobile.git
 
 ###Run project
 ```
-The file "ExecutionRunner" must be executed.
-```
-
-###Create report
-```
-After the execution in the command line:
-$ mvn serenity:aggregate
+$ mvn clean verify
 ```
 
 ###Demo video
-https://drive.google.com/file/d/1OaE3x6SlIfUBwBWf2XL-97tlw0Da8wWO/view?usp=drive_link
+https://drive.google.com/file/d/18v4aMYTIdl3XrAvc8_9fhFwD8AJtr8cq/view?usp=sharing
