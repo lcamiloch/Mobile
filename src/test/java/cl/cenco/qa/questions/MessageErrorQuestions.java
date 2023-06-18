@@ -3,6 +3,7 @@ package cl.cenco.qa.questions;
 import cl.cenco.qa.ui.LoginView;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
+import net.thucydides.core.annotations.Step;
 
 /**
  * @autor: Camilo Chaparro
@@ -11,6 +12,7 @@ import net.serenitybdd.screenplay.Question;
  */
 public class MessageErrorQuestions implements Question{
 
+    @Step
     @Override
     public String answeredBy(Actor actor) {
         return LoginView.errorLabel.resolveFor(actor).getText();
