@@ -16,8 +16,15 @@ $ git clone https://github.com/lcamiloch/Mobile.git
 
 ###Run project
 * You need to have Appium server running and an Android mobile emulator with android version 10
+
+
+* Run all scenarios
 ```
 $ mvn clean verify
+```
+* Run with tags
+```
+$ mvn clean verify -Dtags="{tag name}"
 ```
 
 ###Demo video

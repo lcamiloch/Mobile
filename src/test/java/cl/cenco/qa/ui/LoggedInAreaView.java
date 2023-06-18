@@ -11,5 +11,5 @@ import org.openqa.selenium.By;
 public class LoggedInAreaView {
 
     public static Target yourFeedLabel = Target.the(
-            "Your feed label").located(By.xpath("(//android.widget.TextView)[1]"));
+            "Your feed label").located(By.xpath("(//android.widget.extView)[1]"));
 }
