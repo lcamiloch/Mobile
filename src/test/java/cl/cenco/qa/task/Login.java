@@ -5,6 +5,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.SendKeys;
+import net.thucydides.core.annotations.Step;
 
 /**
  * @autor: Camilo Chaparro
@@ -21,6 +22,7 @@ public class Login implements Task {
         this.password = password;
     }
 
+    @Step
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(

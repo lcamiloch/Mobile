@@ -15,7 +15,7 @@ $ git clone https://github.com/lcamiloch/Mobile.git
 ```
 
 ###Run project
-* You need to have Appium server running and and an Android mobile emulator with android version 10
+* You need to have Appium server running and an Android mobile emulator with android version 10
 ```
 $ mvn clean verify
 ```
